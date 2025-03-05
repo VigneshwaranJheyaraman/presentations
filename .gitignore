@@ -7,7 +7,6 @@ dist
 components.d.ts
 .clj-kondo
 .lsp
-**uber-engg**
 **netlify**
 .npmrc
 .nrepl-port

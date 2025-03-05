@@ -1,11 +1,8 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# presentations.come.here
 
-To start the slide show:
+👋 Hi, I’m @VigneshwaranJheyaraman
+👀 Nobody -> Just loves to code
+🌱 Not anti-social
+💞️ Love to explore new trends
 
-- `pnpm install`
-- `pnpm dev`
-- visit <http://localhost:3030>
-
-Edit the [slides.md](./slides.md) to see the changes.
-
-Learn more about Slidev at the [documentation](https://sli.dev/).
+Find my prensentations :point_up:
