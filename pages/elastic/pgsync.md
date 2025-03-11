@@ -1,6 +1,7 @@
 ---
 layout: Elastic
 transition: slide-up
+zoom: 0.8
 ---
 
 <template v-slot:left>

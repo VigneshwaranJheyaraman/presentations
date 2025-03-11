@@ -1,5 +1,6 @@
 ---
 layout: Elastic
+zoom: 0.7
 transition: slide-left
 ---
 

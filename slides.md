@@ -19,6 +19,8 @@ transition: slide-up
 # enable MDC Syntax: https://sli.dev/features/mdc
 # markdown components syntax
 mdc: true
+# export as png
+export: pdf
 ---
 
 # Goto Presentations
