@@ -15,7 +15,7 @@ drawings:
   enabled: dev
   presenterOnly: true 
 # slide transition: https://sli.dev/guide/animations.html#slide-transitions
-transition: slide-left
+transition: slide-up
 # enable MDC Syntax: https://sli.dev/features/mdc
 # markdown components syntax
 mdc: true
@@ -23,9 +23,11 @@ mdc: true
 
 # Goto Presentations
 
-<ul>
+<div>
   <Link to="/clojure101" title="Clojure 101" />
-</ul>
+  <br />
+  <Link to="/elastic101" title="Elastic & stuff" />
+</div>
 
 ---
 routeAlias: "clojure101"
@@ -37,4 +39,34 @@ src: ./pages/clojure_101/README.md
 ---
 src: ./pages/clojure_101/snippets.md
 routeAlias: "clojure-snippets"
+---
+
+---
+src: ./pages/elastic/index.md
+routeAlias: "elastic101"
+---
+
+---
+src: ./pages/elastic/what_is_elastic.md
+routeAlias: "elasticIntro"
+---
+
+---
+src: ./pages/elastic/elastic_flow.md
+routeAlias: "elasticFlow"
+---
+
+---
+src: ./pages/elastic/indices.md
+routeAlias: "elasticIndices"
+---
+
+---
+src: ./pages/elastic/schema_and_query.md
+routeAlias: "elasticSchema"
+---
+
+---
+src: ./pages/elastic/pgsync.md
+routeAlias: "elasticTools"
 ---

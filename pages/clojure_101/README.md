@@ -1,8 +1,8 @@
 ---
 title: "What is clojure?
-layout: ClojureLayout
+layout: Clojure
 routeAlias: "clojure-install"
-transition: slide-up
+transition: slide-left
 ---
 
 # What is clojure?

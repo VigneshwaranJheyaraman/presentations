@@ -1,5 +1,5 @@
 <style>
-.slidev-layout {
+.clojure-layout {
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Clojure_logo.svg/1200px-Clojure_logo.svg.png");
     background-color:  lightgray;
     background-size: contain;
@@ -10,7 +10,7 @@
 </style>
 
 <template>
-    <div class="slidev-layout default">
+    <div class="slidev-layout default clojure-layout">
         <slot />
     </div>
 </template>

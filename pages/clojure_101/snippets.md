@@ -1,5 +1,6 @@
 ---
 title: "Clojure snippets"
+layout: Clojure
 transition: slide-up
 ---
 
