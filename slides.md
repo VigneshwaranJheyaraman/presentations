@@ -37,10 +37,39 @@ title: "Clojure 101 & Stuff"
 src: ./pages/clojure_101/README.md
 ---
 
+---
+src: ./pages/clojure_101/vars.md
+routeAlias: "clojure-vars"
+---
 
 ---
-src: ./pages/clojure_101/snippets.md
-routeAlias: "clojure-snippets"
+src: ./pages/clojure_101/scalar.md
+routeAlias: "clojure-scalar"
+---
+
+---
+src: ./pages/clojure_101/derived_types.md
+routeAlias: "clojure-derived"
+---
+
+---
+src: ./pages/clojure_101/expr.md
+routeAlias: "clojure-expr"
+---
+
+---
+src: ./pages/clojure_101/package_mgr.md
+routeAlias: "clojure-pkg-mgr"
+---
+
+---
+src: ./pages/clojure_101/repl.md
+routeAlias: "clojure-repl"
+---
+
+---
+src: ./pages/clojure_101/level-2.md
+routeAlias: "clojure-helpers"
 ---
 
 ---

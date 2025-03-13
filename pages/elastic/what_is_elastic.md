@@ -7,7 +7,7 @@ transition: slide-left
 
 ## What is `elastic`?
 
-![Anyone?](https://spartansinnovate.com/wp-content/uploads/2018/03/anyone-meme.jpg?w=411&h=212)
+![Anyone?](../../assets/elastic101/anyone-meme.jpg)
 
 > `elastic` is a _search, logging, cyber security, observability, analytics, and generative AI use cases_
 
@@ -26,6 +26,6 @@ It tends to avoid _relationships_ between data (_traditional tabular-relations (
 
 ## references
 
-![NoSQL-reference](https://pandorafms.com/blog/wp-content/uploads/2024/02/graph-sqlvsnosqul-2.png)
+![NoSQL-reference](../../assets/elastic101/sql_vs_nosql.png)
 
 </template>

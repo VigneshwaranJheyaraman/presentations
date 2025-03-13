@@ -1,8 +1,19 @@
-(ns clojure-101.var-declarations
-  "i explain how to initialize variables"
-  {:clj-kondo/ignore [:missing-docstring
-                      :clojure-lsp/unused-public-var]})
+---
+title: "Variable declarations"
+layout: Clojure
+transition: slide-left
+zoom: 0.9
+---
 
+<template v-slot:header>
+
+# Variable declarations
+
+</template>
+
+<template v-slot:left>
+
+```clojure
 ;; def vs defonce
 
 ;; def can overrite the variable value
@@ -22,7 +33,22 @@
 (println can-change) ;; => 2
 
 (println cannot-change) ;; => 1
+```
 
+```clojure
+;; let block
+;; let allows multiple variables to assigned within the execution block
+
+(let [variable-1 "value-1"
+      variable-2 "value-2"]
+  (println variable-1 variable-1))
+```
+
+</template>
+
+<template v-slot:right>
+
+```clojure
 ;; def
 
 (def variable-name "value")
@@ -33,15 +59,9 @@
 ;; getStatus  is in camelCase
 ;; get-status is in kebab-case
 ;; get_status is in snake_case
+```
 
-;; let block
-;; let allows multiple variables to assigned within the execution block
-
-(let [variable-1 "value-1"
-      variable-2 "value-2"]
-  (println variable-1 variable-1))
-
-
+```clojure
 ;; fn declaration
 (defn function-name
   [fn-argument]
@@ -50,32 +70,16 @@
 
 
 ;; every fn will implicitly return `nil` value
+```
 
-
+```clojure
 ;; unassigned variables
 
 (declare unassigned-variable)
 
-(declare unassigned-var-2)
-
-(println unassigned-var-2)
-
-(+ unassigned-var-2 2)
-
-(def unassigned-var-2 1)
+(println unassigned-variable)
 
 (def unassigned-variable "new-value")
+```
 
-
-(defn unassigned->assigned
-  []
-  (declare var-1)
-  (println var-1)
-  (try
-    (+ var-1 1)
-    (catch Exception e
-      (println "unassigned cannot be used assign some value")))
-  (def var-1 5)
-  (println (+ var-1 1)))
-
-(unassigned->assigned)
+</template>

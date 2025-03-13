@@ -1,2 +1,8 @@
 {:paths ["src"]
- :resource-paths ["resources"]}
+ :resource-paths ["resources"]
+ :aliases {:random {:deps {io.github.clojure/tools.build {:mvn/version "0.10.7"}}
+                     :ns-default sanjay}
+           :uberjar {:deps {com.github.seancorfield/depstar {:mvn/version "2.1.303"}}
+                        :ns-default hf.depstar}}
+ :deps {camel-snake-kebab {:mvn/version "0.4.3"}
+        com.comcast.multipass/toolbox {:mvn/version "0.3.2-SNAPSHOT"}}}

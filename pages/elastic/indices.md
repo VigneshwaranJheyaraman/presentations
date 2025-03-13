@@ -1,7 +1,8 @@
 ---
 layout: Elastic
-zoom: 0.7
 transition: slide-left
+preload: false
+zoom: 0.7
 ---
 
 <template v-slot:left>

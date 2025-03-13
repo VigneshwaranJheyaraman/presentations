@@ -1,6 +1,6 @@
 <style>
 .elastic-layout {
-    background-image: url("https://gts-ts.com/wp-content/uploads/2024/05/elastic-logo-H-black-outline.png");
+    background-image: url("../assets/elastic101/logo.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -22,16 +22,14 @@
 
 </style>
 
+<script setup>
+    import ColumnOrTwo from "./ColumnOrTwo.vue";
+</script>
+
 <template>
-    <div class="slidev-layout default elastic-layout">
-        <div class="w-full h-full grid grid-cols-2 grid-gap-2" v-if="$slots.left && $slots.right">
-        <div class="col-left">
-            <slot name="left" />
-        </div>
-        <div class="col-right">
-            <slot name="right" />
-        </div>
-        </div>
-        <slot name="default"/>
-    </div>
+    <ColumnOrTwo className="elastic-layout">
+        <template #left v-if="$slots.left"><slot name="left"/> </template>
+        <template #right v-if="$slots.right"><slot name="right"/></template>
+        <template #default><slot /></template>
+    </ColumnOrTwo>
 </template>

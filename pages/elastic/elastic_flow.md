@@ -1,17 +1,17 @@
 ---
 layout: Elastic 
-zoom: 0.87
 transition: slide-left
+zoom: 0.87
 ---
 
 <template v-slot:left>
 
 <div class="grid grid-cols-2 grid-gap-2 align-center">
   <div class="col-left">
-    <img src="https://miro.medium.com/v2/resize:fit:686/1*myxfDjOcFa20brPOVPEJqw.png" />
+    <img src="../../assets/elastic101/flow_diagram.png" />
   </div>
   <div class="col-right">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5pMUP6uY0yi-BCKXNH4OtapeU_5kBwHH7IQ&s" />
+    <img src="../../assets/elastic101/shard.png" />
   </div>
 </div>
 

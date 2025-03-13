@@ -3,6 +3,7 @@ title: "What is clojure?
 layout: Clojure
 routeAlias: "clojure-install"
 transition: slide-left
+zoom: 0.8
 ---
 
 # What is clojure?
