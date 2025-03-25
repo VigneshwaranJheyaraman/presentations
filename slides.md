@@ -29,6 +29,8 @@ export: pdf
   <Link to="/clojure101" title="Clojure 101" />
   <br />
   <Link to="/elastic101" title="Elastic & stuff" />
+  <br />
+  <Link to="/pgsync" title="Pgsync da!!!" />
 </div>
 
 ---
@@ -100,4 +102,34 @@ routeAlias: "elasticSchema"
 ---
 src: ./pages/elastic/pgsync.md
 routeAlias: "elasticTools"
+---
+
+---
+src: ./pages/pgsync/agenda.md
+routeAlias: "pgsync"
+---
+
+---
+src: ./pages/pgsync/what-is-pgsync.md
+routeAlias: "yaara-antha-pgsync"
+---
+
+---
+src: ./pages/pgsync/how-it-works.md
+routeAlias: "pgsync-under-the-hood"
+---
+
+---
+src: ./pages/pgsync/why-pgsync.md
+routeAlias: "why-pgsync"
+---
+
+---
+src: ./pages/pgsync/schema.md
+routeAlias: "pgsync-schema"
+---
+
+---
+src: ./pages/pgsync/the-end.md
+routeAlias: "pgsync-end"
 ---

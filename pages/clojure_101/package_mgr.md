@@ -27,11 +27,34 @@ So _artifactory_ (centralized servers which host the libraries developed by the 
 
 > FYI: both `lein` and `deps.edn` will lookup on both `clojars` + `maven`
 
+</template>
+
+<template v-slot:left>
 Also `package-manager` will _cache_ these libraries on _local computer_ (your system). So whenever `lein` / `clj` commands are executed, it first
 looks-up at local _cache_ and _if and only if_ it exists the local cache will be used else latest JAR will be pulled from artifactory
 
 The cache location for all `java-jar` is
 * LINUX / MAC => `~/.m2/repository/`
 * WINDOWS => `%HOME%/.m2/repository/`
+</template>
+
+<template v-slot:right>
+
+```yaml
+- my library
+  - deps on A -> version 0.1
+    - deps on C@0.1
+  - deps on B -> version 0.1
+    - deps on C@0.5
+  - deps on C@0.5
+
+AOT
+
+my-library.jar
+- A@0.1
+- B@0.1
+- C@0.5 (from B & my-library)
+- C@0.1 (from A)
+```
 
 </template>

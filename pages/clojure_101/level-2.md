@@ -23,7 +23,8 @@ transition: slide-up
   "I return a new function who will call the function twice"
   [fn-to-call]
   `(fn []
-    (~fn-to-call (~fn-to-call))))
+    (~fn-to-call)
+    (~fn-to-call)))
 ```
 
 2. What is an `keyword`?

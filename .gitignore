@@ -11,3 +11,9 @@ components.d.ts
 .npmrc
 .nrepl-port
 **vercel**
+
+**/target/**
+*.jar
+.cpcache
+.lsp
+.lein-repl-history
