@@ -19,8 +19,8 @@ transition: slide-up
 # enable MDC Syntax: https://sli.dev/features/mdc
 # markdown components syntax
 mdc: true
-# export as png
-export: pdf
+# export as pptx
+export: pptx
 ---
 
 # Goto Presentations
@@ -31,6 +31,8 @@ export: pdf
   <Link to="/elastic101" title="Elastic & stuff" />
   <br />
   <Link to="/pgsync" title="Pgsync da!!!" />
+  <br />
+  <Link to="/neovim" title="Neovim & Naanum" />
 </div>
 
 ---
@@ -132,4 +134,39 @@ routeAlias: "pgsync-schema"
 ---
 src: ./pages/pgsync/the-end.md
 routeAlias: "pgsync-end"
+---
+
+---
+src: ./pages/neovim/agenda.md
+routeAlias: "neovim"
+---
+
+---
+src: ./pages/neovim/history.md
+routeAlias: "neovim-history"
+---
+
+---
+src: ./pages/neovim/ide_vs_pde.md
+routeAlias: "neovim-ideVpde"
+---
+
+---
+src: ./pages/neovim/vim_jargons.md
+routeAlias: "neovim-jargons"
+---
+
+---
+src: ./pages/neovim/vim_modes.md
+routeAlias: "neovim-modes"
+---
+
+---
+src: ./pages/neovim/vim_motions.md
+routeAlias: "neovim-motions"
+---
+
+---
+src: ./pages/neovim/vim_langs.md
+routeAlias: "neovim-langs"
 ---

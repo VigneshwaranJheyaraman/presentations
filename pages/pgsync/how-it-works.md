@@ -1,6 +1,7 @@
 ---
 layout: Pgsync
 transition: slide-left
+zoom: 0.55
 ---
 
 <template v-slot:header>

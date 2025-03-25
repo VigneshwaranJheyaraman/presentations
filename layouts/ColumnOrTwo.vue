@@ -9,7 +9,7 @@ const className = `${elasicBackup} ${props["className"]}`;
 <template>
     <div :class="className">
         <slot name="header"/>
-        <div class="w-full h-full grid grid-cols-2 grid-gap-2" v-if="$slots.left && $slots.right">
+        <div class="w-full grid grid-cols-2 grid-gap-2" v-if="$slots.left && $slots.right">
             <div class="col-left">
                 <slot name="left" />
             </div>

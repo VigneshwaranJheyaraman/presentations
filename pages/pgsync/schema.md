@@ -1,5 +1,6 @@
 ---
 layout: Pgsync
+zoom: 0.48
 transition: slide-left
 ---
 
@@ -14,7 +15,8 @@ transition: slide-left
         "setting": "<Elasticsearch/OpenSearch setting>",
         "plugins": ["<Plugin A Python Classname>", "<Plugin B Python Classname>"...],
         "pipeline": "<pipeline-name setup in elastic / opensearch>",
-        "routing": "<routing-formula-to-push-the-document-to-specific-elasticOrOpensearch-shard-formula-to-push-the-document-to-specific-elasticOrOpensearch-shard-formula-to-push-the-document-to-specific-elasticOrOpensearch-shard-formula-to-push-the-document-to-specific-elasticOrOpensearch-shard>",
+        "routing": "<routing-formula-to-push-the-document-to-specific-elasticOrOpensearch-shard-formula-to-push-the-document-to-specific-elasticOrOpensearch-shard-formula-to-push-the-document-to-specific-elasticOrOpensearch
+        -shard-formula-to-push-the-document-to-specific-elasticOrOpensearch-shard>",
         "nodes": {
             "table": "<root table name>",
             "schema": "<schema name>",
